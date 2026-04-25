@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "🚀 Hello from Docker Flask App! v10"
+    return "🚀 Hello from Docker Flask App! v12"
 
 @app.route("/health")
 def health():
